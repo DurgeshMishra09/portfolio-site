@@ -681,17 +681,6 @@
       }
     },
     {
-      "label": "Education",
-      "title": "B.Tech CSE",
-      "detail": "Expected graduation in 2028",
-      "palette": {
-        "from": "#120822",
-        "via": "#3d1a6e",
-        "to": "#07060c",
-        "accent": "#b98bff"
-      }
-    },
-    {
       "label": "Web platform",
       "title": "Notes Heaven",
       "detail": "AKTU notes and study resources",
@@ -711,17 +700,6 @@
         "via": "#6b3c06",
         "to": "#0a0806",
         "accent": "#ffb547"
-      }
-    },
-    {
-      "label": "Programming",
-      "title": "C++",
-      "detail": "Included in technical skills",
-      "palette": {
-        "from": "#03150f",
-        "via": "#0d5a40",
-        "to": "#050a08",
-        "accent": "#46e3a8"
       }
     }
   ],
