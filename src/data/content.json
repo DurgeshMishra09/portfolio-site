@@ -1,0 +1,779 @@
+{
+  "profile": {
+    "fullName": "DURGESH MISHRA",
+    "displayName": "Durgesh Mishra",
+    "firstName": "DURGESH",
+    "originalLabel": "THE PORTFOLIO WEBSITE",
+    "role": "Computer Science Engineering Student",
+    "tagline": [
+      "CSE Student",
+      "Web Development",
+      "AI-Enabled Applications"
+    ],
+    "intro": "B.Tech Computer Science Engineering student with foundational knowledge in programming, web development, and AI-enabled applications. Experienced in building student projects, documenting requirements, and collaborating to solve problems.",
+    "location": "Gorakhpur, Uttar Pradesh, India",
+    "email": "durgesh.mishra7526@gmail.com",
+    "links": {
+      "linkedin": "https://linkedin.com/in/durgesh-mishra-a00714330",
+      "github": "https://github.com/DurgeshMishra09"
+    },
+    "resumePdf": "/assets/Durgesh.Mishra-Resume.pdf",
+    "portrait": {
+      "src": "/assets/portrait-720.webp",
+      "srcSet": "/assets/portrait-420.webp 420w, /assets/portrait-720.webp 720w, /assets/portrait-1100.webp 1100w",
+      "alt": "Portrait of Durgesh Mishra"
+    },
+    "interests": [
+      "Emerging technologies",
+      "Programming",
+      "Logical Reasoning"
+    ]
+  },
+  "education": [
+    {
+      "school": "Institute of Technology and Management, GIDA, Gorakhpur",
+      "place": "Gorakhpur, Uttar Pradesh",
+      "degree": "Bachelor of Technology in Computer Science Engineering",
+      "period": "2024 – 2028 (Expected)",
+      "score": "Expected graduation: 2028"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Codec Technologies Pvt. Ltd.",
+      "role": "Web Development Trainee",
+      "place": "India",
+      "period": "Oct 2025 – Nov 2025",
+      "points": [
+        "Completed an AICTE & ICAC-approved web development training program.",
+        "Practised HTML structure and CSS styling to build foundational web layouts.",
+        "Collaborated in a team of 3, communicated project requirements, and solved layout challenges."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "fintrace-z",
+      "title": "FinTrace Z",
+      "year": "Datathon",
+      "genre": "Fraud Analytics • Web App • IBM Z",
+      "logline": "Traces scam money across connected bank accounts: where it started, how it moved, and where it ended.",
+      "stack": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Node.js",
+        "IBM LinuxONE"
+      ],
+      "build": [
+        "Built a React and TypeScript web prototype for the IBM Z Datathon 2026 (Team CodeRhythm) that traces scam money across linked bank accounts, with CSV analysis that runs fully in the browser.",
+        "Implemented five transparent rule-based fraud checks with risk scoring and a money-trail view; built and served it on IBM LinuxONE (s390x) using Node.js."
+      ],
+      "features": [
+        "In-browser CSV analysis (the file is never uploaded)",
+        "Fast pass-through, fan-in, fan-out, chain-hopping and cash-out checks",
+        "Money-trail tree from the scam source to where the money ends",
+        "Account details with path, split and end point"
+      ],
+      "metrics": [
+        {
+          "value": "5",
+          "label": "rule-based checks"
+        },
+        {
+          "value": "s390x",
+          "label": "IBM LinuxONE"
+        },
+        {
+          "value": "0",
+          "label": "file uploads"
+        }
+      ],
+      "palette": {
+        "from": "#03150f",
+        "via": "#0d5a40",
+        "to": "#050a08",
+        "accent": "#46e3a8"
+      },
+      "motif": "flow"
+    },
+    {
+      "id": "debunkify",
+      "title": "DEBUNKIFY",
+      "year": "Project",
+      "genre": "AI • Verification • Web App",
+      "website": "https://debunkify-v2.onrender.com",
+      "logline": "An AI-powered fake news and image verification project focused on helping users investigate suspicious content.",
+      "stack": [
+        "React",
+        "FastAPI",
+        "Groq API",
+        "Cloudinary API",
+        "SerpAPI"
+      ],
+      "build": [
+        "Built a verification web app for text/news and reverse-image investigation using a React frontend and FastAPI backend.",
+        "Integrated Groq API for AI-assisted analysis, Cloudinary for image handling, and SerpAPI for reverse-image search."
+      ],
+      "features": [
+        "Text/news verification",
+        "Image verification workflow",
+        "AI-assisted analysis",
+        "Image handling and reverse-image investigation"
+      ],
+      "metrics": [
+        {
+          "value": "2",
+          "label": "verification modes"
+        },
+        {
+          "value": "React",
+          "label": "frontend"
+        },
+        {
+          "value": "FastAPI",
+          "label": "backend"
+        }
+      ],
+      "palette": {
+        "from": "#2a0610",
+        "via": "#7a0f24",
+        "to": "#0b0710",
+        "accent": "#ff3d5a"
+      },
+      "motif": "shield"
+    },
+    {
+      "id": "blood-donation",
+      "title": "Blood Donation & Acceptance Management System",
+      "year": "Project",
+      "genre": "Web • Community",
+      "website": "https://durgeshmishra09.github.io/BloodLinkbyDurgesh/",
+      "logline": "A responsive registration interface designed to support blood donation and acceptance management.",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "build": [
+        "Developed a responsive registration interface for 50+ users using HTML, CSS, and JavaScript."
+      ],
+      "features": [
+        "Responsive registration interface",
+        "Blood donation and acceptance information",
+        "Web-based user interface"
+      ],
+      "metrics": [
+        {
+          "value": "50+",
+          "label": "users supported"
+        },
+        {
+          "value": "3",
+          "label": "web technologies"
+        }
+      ],
+      "palette": {
+        "from": "#1a0d02",
+        "via": "#8a4a07",
+        "to": "#0a0806",
+        "accent": "#ffb547"
+      },
+      "motif": "flow"
+    },
+    {
+      "id": "notes-heaven",
+      "title": "Notes Heaven",
+      "year": "Project",
+      "genre": "Education • Web Platform",
+      "website": "https://notes-heaven.pages.dev",
+      "logline": "A responsive AKTU notes website that organizes study resources and links to external downloads.",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "build": [
+        "Created a responsive AKTU notes website with subject search, organized resource cards, and external download links using HTML, CSS, and JavaScript."
+      ],
+      "features": [
+        "Subject search",
+        "Organized resource cards",
+        "External download links",
+        "Responsive design"
+      ],
+      "metrics": [
+        {
+          "value": "AKTU",
+          "label": "study resources"
+        },
+        {
+          "value": "3",
+          "label": "web technologies"
+        }
+      ],
+      "palette": {
+        "from": "#04121f",
+        "via": "#0f4c6e",
+        "to": "#05080d",
+        "accent": "#4cc9ff"
+      },
+      "motif": "tenants"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ai-for-all",
+      "title": "AI for All",
+      "org": "TCS iON",
+      "detail": "Completed the AI and Cybersecurity Awareness course under the AI for All initiative.",
+      "laurel": "Certification",
+      "link": "/certificates/ai-for-all-tcs-ion.pdf"
+    },
+    {
+      "id": "codec-training",
+      "title": "Web Development Training",
+      "org": "Codec Technologies Pvt. Ltd.",
+      "detail": "Completed the AICTE & ICAC-approved Web Developer Intern program.",
+      "laurel": "Training",
+      "link": "/certificates/codec-technologies-web-development.pdf"
+    },
+    {
+      "id": "tata-cyber",
+      "title": "Cybersecurity Analyst Job Simulation",
+      "org": "Tata",
+      "detail": "Completed practical tasks in identity and access management.",
+      "laurel": "Job Simulation",
+      "link": "/certificates/tata-cybersecurity-analyst.pdf"
+    },
+    {
+      "id": "deloitte-cyber",
+      "title": "Cyber Job Simulation",
+      "org": "Deloitte",
+      "detail": "Completed a cybersecurity job simulation.",
+      "laurel": "Job Simulation",
+      "link": "/certificates/deloitte-cyber-job-simulation.pdf"
+    },
+    {
+      "id": "mastercard-cyber",
+      "title": "Cybersecurity Job Simulation",
+      "org": "Mastercard",
+      "detail": "Completed phishing simulation and result interpretation tasks.",
+      "laurel": "Job Simulation",
+      "link": "/certificates/mastercard-cybersecurity-job-simulation.pdf"
+    },
+    {
+      "id": "simplilearn-full-stack",
+      "title": "Full-Stack Development 101",
+      "org": "Simplilearn",
+      "detail": "Completed the Full-Stack Development 101 learning program.",
+      "laurel": "Certification",
+      "link": "/certificates/simplilearn-full-stack-development-101.pdf"
+    },
+    {
+      "id": "morrow-hackathon",
+      "title": "Morrow 1.0 Hackathon",
+      "org": "Unstop / MnM",
+      "detail": "Certificate of participation in the Morrow 1.0 open-source hackathon.",
+      "laurel": "Achievement",
+      "link": "/certificates/morrow-1-hackathon.pdf"
+    },
+    {
+      "id": "ibm-z-datathon",
+      "title": "IBM Z Datathon 2026",
+      "org": "Shooting Stars Foundation",
+      "detail": "Certificate of participation in the IBM Z Datathon 2026, a global datathon held on 17th October.",
+      "laurel": "Achievement",
+      "link": "/certificates/ibm-z-datathon-2026.pdf"
+    },
+    {
+      "id": "chatgpt-quizoff",
+      "title": "ChatGPT AI QuizOff 2026",
+      "org": "Devengers",
+      "detail": "Certificate of participation in the ChatGPT AI QuizOff organized by the Devengers.",
+      "laurel": "Achievement",
+      "link": "/certificates/chatgpt-ai-quizoff-2026.pdf"
+    }
+  ],
+  "skillCategories": [
+    {
+      "id": "languages",
+      "title": "Programming",
+      "subtitle": "Programming languages",
+      "skills": [
+        {
+          "name": "C",
+          "mono": "C"
+        },
+        {
+          "name": "C++",
+          "mono": "C+"
+        },
+        {
+          "name": "Python",
+          "mono": "Py"
+        },
+        {
+          "name": "Java",
+          "mono": "Jv"
+        },
+        {
+          "name": "TypeScript",
+          "mono": "Ts"
+        }
+      ]
+    },
+    {
+      "id": "frontend",
+      "title": "Web Technologies",
+      "subtitle": "Frontend development",
+      "skills": [
+        {
+          "name": "HTML",
+          "mono": "Ht"
+        },
+        {
+          "name": "CSS",
+          "mono": "Cs"
+        },
+        {
+          "name": "JavaScript",
+          "mono": "Js"
+        },
+        {
+          "name": "React",
+          "mono": "Re"
+        },
+        {
+          "name": "Tailwind CSS",
+          "mono": "Tw"
+        },
+        {
+          "name": "Web Application Development",
+          "mono": "Wa"
+        },
+        {
+          "name": "Web Designing",
+          "mono": "Wd"
+        }
+      ]
+    },
+    {
+      "id": "backend",
+      "title": "Frameworks & Backend",
+      "subtitle": "Backend development",
+      "skills": [
+        {
+          "name": "FastAPI",
+          "mono": "Fa"
+        },
+        {
+          "name": "Vite",
+          "mono": "Vi"
+        },
+        {
+          "name": "Framer Motion",
+          "mono": "Fm"
+        }
+      ]
+    },
+    {
+      "id": "infra",
+      "title": "APIs & Tools",
+      "subtitle": "Services and platforms used in projects",
+      "skills": [
+        {
+          "name": "Groq API",
+          "mono": "Gq"
+        },
+        {
+          "name": "Cloudinary API",
+          "mono": "Cl"
+        },
+        {
+          "name": "SerpAPI",
+          "mono": "Sr"
+        },
+        {
+          "name": "Git / GitHub",
+          "mono": "Gt"
+        },
+        {
+          "name": "VS Code",
+          "mono": "Vs"
+        },
+        {
+          "name": "Render",
+          "mono": "Re"
+        },
+        {
+          "name": "MS Office",
+          "mono": "Of"
+        },
+        {
+          "name": "Node.js",
+          "mono": "No"
+        },
+        {
+          "name": "IBM LinuxONE (s390x)",
+          "mono": "Ib"
+        }
+      ]
+    },
+    {
+      "id": "ai-data",
+      "title": "AI & Data",
+      "subtitle": "Artificial intelligence and data science",
+      "skills": [
+        {
+          "name": "AI & Machine Learning (ML)",
+          "mono": "Ml"
+        },
+        {
+          "name": "AI and Data Science",
+          "mono": "Ds"
+        },
+        {
+          "name": "AI and Digital Transformation",
+          "mono": "Dt"
+        }
+      ]
+    },
+    {
+      "id": "simulation",
+      "title": "Simulation & Analytics",
+      "subtitle": "Modelling and business intelligence",
+      "skills": [
+        {
+          "name": "Simulation & Modifying MATLAB",
+          "mono": "Mt"
+        },
+        {
+          "name": "Simulink",
+          "mono": "Si"
+        },
+        {
+          "name": "AnyLogic",
+          "mono": "Al"
+        },
+        {
+          "name": "Power BI",
+          "mono": "Pb"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "title": "Cybersecurity",
+      "subtitle": "Security and fraud detection",
+      "skills": [
+        {
+          "name": "Cyber-security & Ethical Hacking",
+          "mono": "Eh"
+        },
+        {
+          "name": "Cyber Forensics and Information Security",
+          "mono": "Cf"
+        },
+        {
+          "name": "Financial Fraud Detection",
+          "mono": "Fd"
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "title": "Core Domains",
+      "subtitle": "Areas of study",
+      "skills": [
+        {
+          "name": "Computer Science and Information Technology",
+          "mono": "Cs"
+        },
+        {
+          "name": "Information Science and Engineering",
+          "mono": "Is"
+        }
+      ]
+    },
+    {
+      "id": "fundamentals",
+      "title": "Professional Skills",
+      "subtitle": "Collaboration and problem solving",
+      "skills": [
+        {
+          "name": "Teamwork",
+          "mono": "Tw"
+        },
+        {
+          "name": "Communication",
+          "mono": "Co"
+        },
+        {
+          "name": "Problem-Solving",
+          "mono": "Ps"
+        },
+        {
+          "name": "Adaptability",
+          "mono": "Ad"
+        },
+        {
+          "name": "Leadership",
+          "mono": "Ld"
+        },
+        {
+          "name": "Time Management",
+          "mono": "Tm"
+        }
+      ]
+    },
+    {
+      "id": "interests",
+      "title": "Interests",
+      "subtitle": "Areas of interest",
+      "skills": [
+        {
+          "name": "Emerging technologies",
+          "mono": "Et"
+        },
+        {
+          "name": "Programming",
+          "mono": "Pr"
+        },
+        {
+          "name": "Logical Reasoning",
+          "mono": "Lr"
+        }
+      ]
+    }
+  ],
+  "seasons": [
+    {
+      "number": 1,
+      "title": "The Foundation",
+      "period": "2024 – 2028",
+      "synopsis": "B.Tech in Computer Science Engineering at Institute of Technology and Management, GIDA, Gorakhpur.",
+      "episodes": [
+        {
+          "code": "EP 01",
+          "title": "Computer Science",
+          "description": "Pursuing a Bachelor of Technology in Computer Science Engineering, expected graduation in 2028.",
+          "tags": [
+            "B.Tech",
+            "CSE"
+          ],
+          "runtime": "2024 – 2028",
+          "palette": {
+            "from": "#120822",
+            "via": "#3d1a6e",
+            "to": "#07060c",
+            "accent": "#b98bff"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Learning by Building",
+      "period": "2025 – 2026",
+      "synopsis": "Web development training and practical student projects.",
+      "episodes": [
+        {
+          "code": "EP 01",
+          "title": "Web Development Training",
+          "description": "Codec Technologies training covering HTML structure, CSS styling, team collaboration, and layout problem-solving.",
+          "tags": [
+            "HTML",
+            "CSS",
+            "Teamwork"
+          ],
+          "runtime": "Oct – Nov 2025",
+          "palette": {
+            "from": "#1c1003",
+            "via": "#6b3c06",
+            "to": "#0a0806",
+            "accent": "#ffb547"
+          }
+        },
+        {
+          "code": "EP 02",
+          "title": "DEBUNKIFY",
+          "description": "AI-assisted text/news and image verification project built with React and FastAPI.",
+          "tags": [
+            "React",
+            "FastAPI",
+            "APIs"
+          ],
+          "runtime": "Academic project",
+          "palette": {
+            "from": "#24060b",
+            "via": "#6e0d1d",
+            "to": "#09070a",
+            "accent": "#ff3d5a"
+          }
+        },
+        {
+          "code": "EP 03",
+          "title": "Notes Heaven",
+          "description": "Responsive AKTU notes website with subject search and organized study resources.",
+          "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+          ],
+          "runtime": "Academic project",
+          "palette": {
+            "from": "#04121f",
+            "via": "#0f4c6e",
+            "to": "#05080d",
+            "accent": "#4cc9ff"
+          }
+        },
+        {
+          "code": "EP 04",
+          "title": "FinTrace Z",
+          "description": "Scam money-trail analysis prototype built with React and TypeScript for the IBM Z Datathon 2026 and run on IBM LinuxONE.",
+          "tags": [
+            "React",
+            "TypeScript",
+            "IBM Z"
+          ],
+          "runtime": "Datathon · Oct 2026",
+          "palette": {
+            "from": "#03150f",
+            "via": "#0d5a40",
+            "to": "#050a08",
+            "accent": "#46e3a8"
+          }
+        }
+      ]
+    }
+  ],
+  "topPicks": [
+    {
+      "label": "Datathon project",
+      "title": "FinTrace Z",
+      "detail": "IBM Z Datathon 2026 • Team CodeRhythm",
+      "palette": {
+        "from": "#03150f",
+        "via": "#0d5a40",
+        "to": "#050a08",
+        "accent": "#46e3a8"
+      }
+    },
+    {
+      "label": "Featured project",
+      "title": "DEBUNKIFY",
+      "detail": "AI-assisted fake news and image verification",
+      "palette": {
+        "from": "#24060b",
+        "via": "#6e0d1d",
+        "to": "#09070a",
+        "accent": "#ff3d5a"
+      }
+    },
+    {
+      "label": "Education",
+      "title": "B.Tech CSE",
+      "detail": "Expected graduation in 2028",
+      "palette": {
+        "from": "#120822",
+        "via": "#3d1a6e",
+        "to": "#07060c",
+        "accent": "#b98bff"
+      }
+    },
+    {
+      "label": "Web platform",
+      "title": "Notes Heaven",
+      "detail": "AKTU notes and study resources",
+      "palette": {
+        "from": "#04121f",
+        "via": "#0f4c6e",
+        "to": "#05080d",
+        "accent": "#4cc9ff"
+      }
+    },
+    {
+      "label": "Training",
+      "title": "Codec Technologies",
+      "detail": "Web Development Training • 2025",
+      "palette": {
+        "from": "#1c1003",
+        "via": "#6b3c06",
+        "to": "#0a0806",
+        "accent": "#ffb547"
+      }
+    },
+    {
+      "label": "Programming",
+      "title": "C++",
+      "detail": "Included in technical skills",
+      "palette": {
+        "from": "#03150f",
+        "via": "#0d5a40",
+        "to": "#050a08",
+        "accent": "#46e3a8"
+      }
+    }
+  ],
+  "introSlides": [
+    {
+      "kicker": "Introduction",
+      "title": "B.Tech · CSE",
+      "lines": [
+        "Institute of Technology and Management, GIDA, Gorakhpur",
+        "2024 – 2028 (Expected)"
+      ],
+      "chips": [
+        "Computer Science Engineering"
+      ]
+    },
+    {
+      "kicker": "Skills",
+      "title": "Build for the web.",
+      "lines": [
+        "C, C++, Python, Java, TypeScript",
+        "HTML, CSS, JavaScript, React, FastAPI"
+      ],
+      "chips": [
+        "Programming",
+        "Web Development",
+        "APIs"
+      ]
+    },
+    {
+      "kicker": "Training",
+      "title": "Web Development",
+      "lines": [
+        "Codec Technologies Pvt. Ltd.",
+        "AICTE & ICAC-approved training · Oct – Nov 2025"
+      ]
+    },
+    {
+      "kicker": "Projects",
+      "title": "Four Projects",
+      "lines": [
+        "FinTrace Z — scam money-trail analysis",
+        "DEBUNKIFY — text/news and image verification",
+        "Blood Donation System · Notes Heaven"
+      ]
+    },
+    {
+      "kicker": "Certifications",
+      "title": "Learning Beyond Class",
+      "lines": [
+        "AI for All — TCS iON",
+        "Cybersecurity job simulations",
+        "IBM Z Datathon 2026 — Shooting Stars Foundation"
+      ]
+    },
+    {
+      "kicker": "Current mission",
+      "title": "Keep Building",
+      "lines": [
+        "Emerging technologies · Programming · Logical Reasoning"
+      ]
+    }
+  ]
+}
